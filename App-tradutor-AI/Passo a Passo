@@ -1,0 +1,21 @@
+Criar o Ambiente virtual:
+
+1 - python -m venv "nome do ambiente virtual"
+
+2 - Ativar o ambiente virtual:
+ "nome do ambiente virtual"/Scripts/Activate
+
+3 - Instalar as bibliotecas
+pip install streamlit
+pip install streamlit deep-translator 
+
+4 - Carregar todas as dependências no arquivo txt.
+pip freeze > requirements.txt
+pip install -r requirements.txt
+
+
+python -m venv aula01
+aula01\Scripts\Activate
+
+Comando para executar o arquivo python
+streamlit run app.py 
