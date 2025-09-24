@@ -1,7 +1,7 @@
 import streamlit as st
 from deep_translator import GoogleTranslator
 
-st.title("🌍 Tradutor Multilíngue com Deep Translator")
+st.title("Tradutor")
 
 #Área de textos
 texto = st.text_area(" Digite sua frase em português:", 
